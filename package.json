@@ -24,6 +24,10 @@
     "test": "echo 'tests'"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "concurrently": "^4.1.0"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-async-to-generator": "^7.5.0"
   }
 }
