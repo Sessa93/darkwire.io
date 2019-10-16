@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  client:
+    build: ./client
+    ports:
+      - 3000:3000
+    volumes:
+      - ./client/.env:/darkwire/.env
+  
+  redis:
+    image: redis
+    ports:
+      - 6379:6379
+  
+  server:
+    build: ./server
+    ports:
+      - 3030:3030
+    volumes:
+      - ./server/.env:/darkwire/.env
