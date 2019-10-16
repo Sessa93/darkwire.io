@@ -1,4 +1,4 @@
-# Darkwire.io
+# Rchat.cc
 
 [![CircleCI](https://circleci.com/gh/darkwire/darkwire.io.svg?style=svg)](https://circleci.com/gh/darkwire/darkwire.io)
 
